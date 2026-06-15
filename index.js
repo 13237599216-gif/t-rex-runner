@@ -40,7 +40,7 @@
         this.time = 0;
         this.runningTime = 0;
         this.msPerFrame = 1000 / FPS;
-        this.currentSpeed = this.config.SPEED;
+        this.currentSpeed = this.config.SPEED*2;
 
         this.obstacles = [];
 
